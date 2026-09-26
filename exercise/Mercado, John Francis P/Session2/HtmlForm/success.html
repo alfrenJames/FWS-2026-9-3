@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission Success</title>
+</head>
+<body>
+    <h2>Successfully Received Parameters:</h2>
+    <div id="results"></div>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const resultsContainer = document.getElementById('results');
+        if ([...params].length === 0) {
+            resultsContainer.innerHTML = "<p>No parameters found.</p>";
+        } else {
+            let list = "<ul>";
+            params.forEach((value, key) => {
+                list += `<li><b>${key}:</b> ${value}</li>`;
+            });
+            list += "</ul>";
+            resultsContainer.innerHTML = list;
+        }
+    </script>
+    <br>
+    <br>
+    <fieldset style="width: fit-content;">
+        <legend>Activity 1: Feedback Hub</legend>
+        <a href="https://htmlpreview.github.io/?https://github.com/alfrenJames/FWS-2026-9-3/blob/main/exercise/Mercado%2C%20John%20Francis%20P/Session2/HtmlForm/activity1.html">
+            <button type="button" style="font-size: 18px; padding: 12px 24px;">⬅️ Back to Activity#1</button>
+        </a>
+    </fieldset>
+</body>
+</html>
