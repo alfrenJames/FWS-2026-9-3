@@ -1,0 +1,1 @@
+**Click to see the html preview here**: 👉 [https://htmlpreview.github.io/](https://htmlpreview.github.io/?https://github.com/alfrenJames/FWS-2026-9-3/blob/main/exercise/Mercado%2C%20John%20Francis%20P/Session2/HtmlForm/index.html)
