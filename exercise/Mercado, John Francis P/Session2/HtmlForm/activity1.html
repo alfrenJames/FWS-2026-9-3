@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Activity 1: The "Feedback Hub"</title>
+</head>
+<body>
+    <h1>Student Activity 1: Feedback Hub</h1>
+    <form>
+        <fieldset style="width: 400px;">
+            <legend>Basic Information</legend>
+            <p>
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" required>
+            </p>
+            <p>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset style="width: 400px;">
+            <legend>User Survey</legend>
+            <p>
+                <label for="source">How did you hear about us?</label><br>
+                <select id="source" name="source">
+                    <option value="" disabled selected>-- Select an option --</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="friends">Friends or Family</option>
+                    <option value="search_engine">Search Engine (Google, etc.)</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+            <p>
+                <label>Would you recommend us?</label><br>
+                <input type="radio" id="recommend_yes" name="recommend" value="yes">
+                <label for="recommend_yes">Yes</label>
+                <input type="radio" id="recommend_no" name="recommend" value="no">
+                <label for="recommend_no">No</label>
+            </p>
+            <p>
+                <label for="comments">Additional Comments:</label><br>
+                <textarea id="comments" name="comments" rows="5" cols="40" style="resize: none;"></textarea>
+            </p>
+        </fieldset>
+        <br>
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>
