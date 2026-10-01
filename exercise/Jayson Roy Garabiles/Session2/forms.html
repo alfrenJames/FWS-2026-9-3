@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Names</title>
+</head>
+<body>
+    <h2>HTML FORMS</h2>
+
+    <form action="/action_page.php">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname"  name="lname" required><br><br>
+    <label for="hows">How Did You Find Us?</label>
+    
+    <select name="hows" id="hows">
+        <option value="googol">Google or Search Engine</option>
+        <option value="socmed">Social Media (Facebook, Instagram, LinkedIn, TikTok)</option>
+        <option value="joerogan">Podcast or Radio</option>
+        <option value="ads">Advertisement (Online, TV, or Print)</option>
+        <option value="email">Email Newsletter</option>
+    </select>
+    <h3>Would You Recommend Us?</h3>
+        <input type="radio" id="yas" name="Recommend" value="YUH">
+        <label for="yas">Yes</label>
+        <input type="radio" id="nah" name="Recommend" value="NOPE">
+        <label for="nah">No</label>
+    <br><br>
+
+    <h3>Additional Comments:</h3>
+        <label for="desc"></label>
+        <textarea name="desc" id="desc" rows="4" cols="50" placeholder="Hi :D"></textarea>
+        <br><br>
+    <input type="submit" value="Submit">
+    <br>
+
+    </form>
+</body>
+
+</html>
