@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML Table</title>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Activity1.html">Form</a></li>
+        <li><a href="Activity2.html">Form</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        </ul>
+        
+    </nav>
+<body>
+
+<h2>QUICK CHECKOUT</h2>
+<p><label>1. Shipping Address</label><br>
+<label> Street Address:<br></label>
+<input type="text" name="address" required autocomplete="shipping address-line1"></p>
+
+<p> <label>ZIP Code:
+      <input type="text" name="zip" required autocomplete="shipping postal-code">
+    </label> </p>
+    
+<div class="form">    
+<p> <label>2. Payment Information</label><br>
+<label>Card number:</label><br>
+<input type="cardnumber" id="cardnumber" name="cardnumber" inputmode="numeric"
+maxlength="19"
+placeholder="0000 0000 0000 0000"
+required> </div>
+
+<div class="form-row">
+  <div class="form-group">
+    <label for="card-expiry">Expiry Date</label>
+    <input 
+      type="text" 
+      id="card-expiry" 
+      name="card_expiry" 
+      inputmode="numeric" 
+      autocomplete="cc-exp" 
+      placeholder="MM/YY" 
+      maxlength="5" 
+      required>
+  </div>
+
+
+<form action="/action_page.php">
+  <input type="checkbox" id="signup" name="signup" value="yes">
+  <label for="signup"> Sign me up for deals!</label><br>
+ 
+  <input type="submit" value="Complete purchase">
+</form> 
+
+</body>
+</html>
