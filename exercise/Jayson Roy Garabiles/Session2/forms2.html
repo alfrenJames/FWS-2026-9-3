@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <div class="form-row">
+        <label for="">Street Adress:</label><br>
+        <input type="text" id="strad" name="street_address" placeholder="e.g. 123 Street Project 6 Quezon City" required><br><br>
+        </div>
+
+        <div>
+            <label>Zip Code:
+                <input type="text" id="zipcode" name="zip_code" inputmode="[0-9]" autocomplete="postal-code" required><br><br>
+            </label>
+        </div>
+
+    <div>
+        <label>Card Number:</label><br>
+        <input type="text" id="cnumber" name="card_number" placeholder="1234 5678 ..." inputmode="numeric" maxlength="19" autocomplete="cc-number" required><br><br>        
+    </div>
+    
+    <div>
+        <label>Card Expiry:
+            <input type="text" id="cexpiry" name="card_expiry" placeholder="MM/YY" inputmode="numeric" maxlength="5" autocomplete="cc-exp"><br><br>
+        </label>
+    </div>
+
+    <div>
+        <label class="checkbox-container">
+            <input type="checkbox" id="deals" name="complete" checked>
+            Sign me up for deals!
+        </label><br>
+    </div>
+    <div>
+        <button type="submit">
+            <strong>Complete Purchase</strong>
+        </button>
+    </div>
+    </form>
+</body>
+</html>
