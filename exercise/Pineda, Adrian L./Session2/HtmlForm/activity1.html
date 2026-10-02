@@ -1,1 +1,55 @@
-test.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML Forms</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="FeedbackHub.html">Feedback Hub</a></li>
+            <li><a href="Quickcheckout.html">Quick Checkout</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Feedback Hub</h1>
+    </main>
+    <section>
+        <p>We value your feedback! Please fill out the form below.</p>
+    </section>
+    <section>
+        <form>
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="number">Contact Number:</label><br>
+            <input type="number" id="mobilenumber" name="mobilenumber" required><br><br>
+            <label for="source">How did you hear about us?</label><br>
+            <select id="source" name="source">
+                    <option value="">-- Please Select --</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="gmail">Gmail</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+            </select><br><br>
+            <label for="recommend">Would you recommend us?</label><br><br>
+            <input type="radio" id="yes" name="recommend" value="Yes">
+            <label for="yes">Yes</label>    
+            <input type="radio" id="no" name="recommend" value="No">
+            <label for="no">No</label><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40"
+            placeholder="Enter your message here..."></textarea><br><br>
+            <input type="submit" value="Submit"><br><br>
+         </form>
+    </section>
+    <footer>
+        <p>&copy; 2026 HTML Learning. All rights reserved.</p>
+    </footer>
+</body>
+</html>
