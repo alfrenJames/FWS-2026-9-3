@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form - Quick Checkout Page</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Go back to HTML Form Main Page</a></li>
+            <li><a href="activity1.html">Submit feedback.</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>STUDENT ACTIVITY 2: QUICK CHECKOUT</h2><br>
+    </main>
+
+    <section>
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullname" name="fullName" required><br><br>
+    </section>
+
+    <section>
+        <h3>1. Shipping Address</h3>
+            <form>
+                <label for="streetAddress">Street Address:</label><br>
+                <input type="text" id="streetAddress" name="streetAddress" required><br><br>
+
+                <label for="zipCode">Zip Code:</label>
+                <input type="number" id="zipCode" name="zipCode" size="5"
+                pattern="[0-9]{5}" placeholder="12345" required><br><br>
+            </form>
+    </section>
+
+    <section>
+        <h3>2. Payment Information</h3>
+            <form>
+                <label for="cardNumber">Card Number:</label><br>
+                <input type="text" id="cardNumber" name="cardNumber" size="16"
+                pattern="[0-9]{16}" placeholder="1234567890123456" required><br><br>
+
+                <label for="expiryDate">Expiry Date:</label>
+                <select id="expiryDate" name="surveyTracker">
+                    <option value="" disabled selected hidden>(Month)</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select><br><br><br>
+
+                <input type="checkbox" id="signup" name="signup" value="signup" required>
+                <label for="signup">Sign me up for deals!</label><br><br><br><br>
+
+                <input type="submit" value="Complete Purchase">
+            </form>
+    </section>
+    
+</body>
+</html>
