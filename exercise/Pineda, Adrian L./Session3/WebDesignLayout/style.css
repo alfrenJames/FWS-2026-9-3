@@ -1,1 +1,242 @@
-test
+/* GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(253, 252, 252);
+    color: #0a0909;
+}
+/* HEADER */
+.play-button {
+    display: inline-block;
+    font-size: 25px;
+    vertical-align: middle;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    width: 35px;
+    text-align: center;
+}
+.logo-text {
+    display: inline-block;
+    margin-right: 0;
+    font-size: 25px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.youtube-logo {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 15px 25px;
+    border-bottom: 1px solid #dddddd;
+    min-height: 85px;
+    white-space: nowrap;
+}
+.header {
+    display: inline-block;
+    width: 43%;
+    margin-left: 60px;
+    vertical-align: middle;
+}
+.search {
+    width: 100%;
+    white-space: nowrap;
+    margin-left: 5%;
+}
+.search input {
+    width: calc(100% - 55px);
+    padding: 12px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 25px 0 0 25px;
+    font-size: 15px;
+}
+.search button {
+    width: 50px;
+    padding: 12px 18px;
+    border: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+.header-icons {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    vertical-align: middle;
+    margin-left: 20%;
+}
+.header-icons button {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.bell {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.avatar {
+    display: inline-block;
+    width: 30px;
+    padding: 7px 0;
+    border-radius: 50%;
+    background-color: violet;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    margin-left: 15px;
+}
+
+/* TOP NAVIGATION */
+nav.sidebar {
+    padding: 18px 25px;
+    border-bottom: 1px solid #dddddd;
+    white-space: nowrap;
+}
+nav.sidebar .menu-icon {
+    margin-right: 35px;
+    font-size: 22px;
+    cursor: pointer;
+}
+nav.sidebar a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+nav.sidebar a:first-of-type {
+    color: #065fd4;
+    border-bottom: 3px solid #065fd4;
+}
+
+/* SIDEBAR */
+aside.sidebar {
+    display: inline-block;
+    width: 19%;
+    min-height: 650px;
+    padding: 20px 12px;
+    border-right: 1px solid #dddddd;
+    vertical-align: top;
+}
+aside.sidebar a {
+    display: block;
+    padding: 13px 12px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    color: #222222;
+    text-decoration: none;
+}
+aside.sidebar a:hover {
+    background-color: #e0d0d0;
+}
+aside.sidebar a:first-child {
+    background-color: #e5f1ff;
+}
+aside.sidebar hr {
+    margin: 15px 5px;
+    border: none;
+    border-top: 1px solid #dddddd;
+}
+/* VIDEO CONTENT */
+.content {
+    display: inline-block;
+    width: 80%;
+    padding: 25px 20px;
+    vertical-align: top;
+}
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+/* VIDEO CONTAINER */
+.video-grid {
+    font-size: 0;
+}
+.video-card {
+    display: inline-block;
+    width: 31%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    vertical-align: top;
+    font-size: 14px;
+}
+.video-card:nth-child(3n) {
+    margin-right: 0;
+}
+.thumbnail {
+    position: relative;
+    width: 100%;
+    height: 188px;
+    margin-bottom: 12px;
+}
+.thumbnail img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.duration {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    padding: 4px 6px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 3px;
+    font-size: 12px;
+}
+.video-card h4 {
+    min-height: 23px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.channel {
+    margin-bottom: 5px;
+    color: #606060;
+    font-size: 14px;
+}
+.views{
+    color: #606060;
+    font-size: 13px;
+}
+/* FOOTER */
+.page-footer {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 25px;
+    border-top: 1px solid #dddddd;
+    background-color: #fafafa;
+    min-height: 80px;
+    clear: both;
+}
+
+.page-footer p {
+    display: inline-block;
+    width: 55%;
+    vertical-align: middle;
+}
+
+.footer-links {
+    display: inline-block;
+    width: 44%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin-left: 15px;
+    color: #222222;
+    text-decoration: none;
+}
