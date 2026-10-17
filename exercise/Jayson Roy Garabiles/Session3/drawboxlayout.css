@@ -1,0 +1,178 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 15px;
+    color: #333;
+}
+
+
+header,section
+{
+    display: block;
+    padding: 20px;
+    background-color:#e0f2fe;
+    overflow: auto;
+
+}
+header
+{
+margin-bottom: 10px 10px 0px 0px;
+border-radius: 16px;
+}
+section
+{
+margin-bottom: 0px 10px 10px 0px;
+border-top: 8px solid #ffffffff;
+border-radius: 16px;
+}
+.logos {
+    display:block;
+    float: left;
+    margin-top: 0;
+}
+.headerNav
+{
+    
+    margin-right: 80px;
+    margin-top: 0;
+    float: right;
+   
+    
+}
+.headerNav a {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #1c3a8b;
+}
+
+
+footer
+{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #4b4949;
+    border-radius: 5px;
+    text-align: center;
+}
+.profileSectionWrapper
+{
+    display: block;
+    overflow: hidden;
+    padding: 40px 60px;
+   
+    
+}
+.profileImageContainer
+{
+    display: inline-block;
+    width: 28%;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+}
+.profileImage
+{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #4b4949;
+    object-fit: cover;
+}
+
+.profileInfo
+{
+    display: inline-block;
+    width: 68%;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.profileInfo h2
+{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #013175;
+}
+
+.profileDescription
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #013175;
+}
+
+.profileBio
+{
+    margin-top: 0;
+    font-size: 16px;
+    color: #013175;
+}
+.techSection
+{
+    width: 100%;
+    background-color: #f3e8ff;
+}
+.techBlock
+{
+    display:inline-block;
+    width: 100%;
+    padding: 40px;
+}
+
+.techSection h2
+{
+    margin: 0 0 20px 0;
+    font-family: sans-serif;
+    color: #6b21a8;
+}
+
+.technology
+{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #e9d5ff;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #6b21a8;
+}
+
+.projectSection
+{
+    width: 100%;
+    background-color: #E1FBE6
+}
+
+.projectCard
+{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projectImage
+{
+    width: 100%;
+    display: block;
+    position: relative;
+}
