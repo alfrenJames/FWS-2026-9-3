@@ -1,16 +1,16 @@
 /* GENERAL */
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body {
+body{
     font-family: Arial, sans-serif;
     background-color: rgb(253, 252, 252);
     color: #0a0909;
 }
 /* HEADER */
-.play-button {
+.play-button{
     display: inline-block;
     font-size: 25px;
     vertical-align: middle;
@@ -20,14 +20,14 @@ body {
     width: 35px;
     text-align: center;
 }
-.logo-text {
+.logo-text{
     display: inline-block;
     margin-right: 0;
     font-size: 25px;
     font-weight: bold;
     vertical-align: middle;
 }
-.top {
+.top{
     position: relative;
     display: block;
     width: 100%;
@@ -36,52 +36,52 @@ body {
     min-height: 85px;
     white-space: nowrap;
 }
-.header {
+.header{
     display: inline-block;
     width: 43%;
     margin-left: 60px;
     vertical-align: middle;
 }
-.search {
+.search{
     width: 100%;
     white-space: nowrap;
     margin-left: 5%;
 }
-.search input {
+.search input{
     width: calc(100% - 55px);
     padding: 12px 15px;
     border: 1px solid #cccccc;
     border-radius: 25px 0 0 25px;
     font-size: 15px;
 }
-.search button {
+.search button{
     width: 50px;
     padding: 12px 18px;
     border: 1px solid #cccccc;
     background-color: #f5f5f5;
     cursor: pointer;
 }
-.header-icons {
+.header-icons{
     display: inline-block;
     width: 20%;
     text-align: right;
     vertical-align: middle;
     margin-left: 20%;
 }
-.header-icons button {
+.header-icons button{
     padding: 10px 12px;
     border: none;
     border-radius: 20px;
     background-color: #f2f2f2;
     cursor: pointer;
 }
-.bell {
+.bell{
     display: inline-block;
     margin-left: 15px;
     font-size: 20px;
     vertical-align: middle;
 }
-.avatar {
+.avatar{
     display: inline-block;
     width: 30px;
     padding: 7px 0;
@@ -95,30 +95,30 @@ body {
 }
 
 /* TOP NAVIGATION */
-nav.sidebar {
+nav.sidebar{
     padding: 18px 25px;
     border-bottom: 1px solid #dddddd;
     white-space: nowrap;
 }
-nav.sidebar .menu-icon {
+nav.sidebar .menu-icon{
     margin-right: 35px;
     font-size: 22px;
     cursor: pointer;
 }
-nav.sidebar a {
+nav.sidebar a{
     display: inline-block;
     padding: 8px 12px;
     margin-right: 15px;
     color: black;
     text-decoration: none;
 }
-nav.sidebar a:first-of-type {
+nav.sidebar a:first-of-type{
     color: #065fd4;
     border-bottom: 3px solid #065fd4;
 }
 
 /* SIDEBAR */
-aside.sidebar {
+aside.sidebar{
     display: inline-block;
     width: 19%;
     min-height: 650px;
@@ -126,7 +126,7 @@ aside.sidebar {
     border-right: 1px solid #dddddd;
     vertical-align: top;
 }
-aside.sidebar a {
+aside.sidebar a{
     display: block;
     padding: 13px 12px;
     margin-bottom: 5px;
@@ -134,33 +134,33 @@ aside.sidebar a {
     color: #222222;
     text-decoration: none;
 }
-aside.sidebar a:hover {
+aside.sidebar a:hover{
     background-color: #e0d0d0;
 }
-aside.sidebar a:first-child {
+aside.sidebar a:first-child{
     background-color: #e5f1ff;
 }
-aside.sidebar hr {
+aside.sidebar hr{
     margin: 15px 5px;
     border: none;
     border-top: 1px solid #dddddd;
 }
 /* VIDEO CONTENT */
-.content {
+.content{
     display: inline-block;
     width: 80%;
     padding: 25px 20px;
     vertical-align: top;
 }
-.content h2 {
+.content h2{
     margin-bottom: 20px;
     font-size: 25px;
 }
 /* VIDEO CONTAINER */
-.video-grid {
+.video-grid{
     font-size: 0;
 }
-.video-card {
+.video-card{
     display: inline-block;
     width: 31%;
     margin-right: 2%;
@@ -168,23 +168,23 @@ aside.sidebar hr {
     vertical-align: top;
     font-size: 14px;
 }
-.video-card:nth-child(3n) {
+.video-card:nth-child(3n){
     margin-right: 0;
 }
-.thumbnail {
+.thumbnail{
     position: relative;
     width: 100%;
     height: 188px;
     margin-bottom: 12px;
 }
-.thumbnail img {
+.thumbnail img{
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
-.duration {
+.duration{
     position: absolute;
     right: 8px;
     bottom: 8px;
@@ -194,13 +194,13 @@ aside.sidebar hr {
     border-radius: 3px;
     font-size: 12px;
 }
-.video-card h4 {
+.video-card h4{
     min-height: 23px;
     margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.4;
 }
-.channel {
+.channel{
     margin-bottom: 5px;
     color: #606060;
     font-size: 14px;
@@ -210,7 +210,7 @@ aside.sidebar hr {
     font-size: 13px;
 }
 /* FOOTER */
-.page-footer {
+.page-footer{
     display: block;
     width: 100%;
     margin-top: 30px;
@@ -221,20 +221,20 @@ aside.sidebar hr {
     clear: both;
 }
 
-.page-footer p {
+.page-footer p{
     display: inline-block;
     width: 55%;
     vertical-align: middle;
 }
 
-.footer-links {
+.footer-links{
     display: inline-block;
     width: 44%;
     text-align: right;
     vertical-align: middle;
 }
 
-.footer-links a {
+.footer-links a{
     display: inline-block;
     margin-left: 15px;
     color: #222222;
