@@ -2,7 +2,7 @@
 
 ## 🔗 Live Website
 
-👉 **[Click here to view the website]([https://your-website-link.com](https://htmlpreview.github.io/?https://github.com/alfrenJames/FWS-2026-9-3/blob/main/lecture/burger-responsive-design/index.html#home))**
+👉 **[Click here to view the website]((https://htmlpreview.github.io/?https://github.com/alfrenJames/FWS-2026-9-3/blob/main/lecture/burger-responsive-design/index.html#home))**
 
 ## 📱 Responsive Design
 
