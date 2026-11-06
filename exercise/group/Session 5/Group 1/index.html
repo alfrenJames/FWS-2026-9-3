@@ -3,7 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bahay Litsunan | Crispy & Delicious</title>
+    <meta name="description" content="For the best dining experience in the Philippines, visit us at the House of Lechon where you can savor the delicious flavors of Filipino and Cebuano cuisine heritage dishes in a vibrant yet casual ambiance that warmly welcomes you, solo or with a group.">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <title>House of Lechon | ✿ Michelin Selected Restaurant in Cebu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
@@ -12,8 +18,7 @@
     <header class="navbar">
         <a href="#home" class="logo">
             <span class="logo-icon">🐷</span>
-            <span>Bahay</span>
-            <span>Litsunan</span>
+            <span class="league-gothic-custom">HOUSE OF LECHON</span>
         </a>
         <button
             class="menu-toggle"
@@ -28,9 +33,8 @@
         </button>
         <nav class="nav-links" id="navLinks">
             <a href="#home">Home</a>
-            <a href="#menu">Our Menu</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
             <a href="#menu" class="nav-order">Order Now</a>
         </nav>
     </header>
@@ -39,26 +43,26 @@
         <!-- Hero Section -->
         <section class="hero" id="home">
             <div class="hero-content">
-                <p class="eyebrow">Taste of Tradition</p>
+                <p class="eyebrow">FROM OUR FIRE TO YOUR TABLE</p>
 
-                <h1>
-                    Crispy Goodness.<br>
-                    <span>Greater Celebrations.</span>
+                <h1 class="league-gothic-custom">
+                    CRISPY GOODNESS,<br>
+                    GREATER CELEBRATIONS.
                 </h1>
 
                 <p class="hero-description">
-                    Once you crunch, you can't stop!
-                    <!-- Juicy patties, fresh ingredients, and bold flavors.
-                    Experience the ultimate burger craving. -->
+                    Slow-roasted over real charcoal.<br>
+                    Made for everyday cravings and days worth celebrating.
                 </p>
 
-                <a href="#menu" class="btn">Explore Our Menu</a>
+                <a href="#menu" class="btn">Explore the menu</a>
             </div>
 
             <div class="hero-image">
                 <img
-                    src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85"
-                    alt="Juicy cheeseburger with lettuce, tomato, and cheese"
+                     src="images/hol.png"
+                    alt="Juicy Carcar-style lechon with crispy skin"
+                    style="width: 650px; height: 350px"
                 >
             </div>
         </section>
@@ -66,134 +70,375 @@
         <!-- Menu Section -->
         <section class="menu-section" id="menu">
             <div class="section-heading">
-                <p class="eyebrow">MADE FRESH FOR YOU</p>
-                <h2>Our Bestsellers</h2>
-                <p>Locally sourced, slow roasted, traditional Filipino taste.</p>
+                <h2 class="league-gothic-custom">OUR BESTSELLERS</h2>
+                <p>Your next good meal.</p>
             </div>
 
             <div class="menu-grid">
 
-                  <article class="lechon-kawali-card">
-                    <div class="lechon-image">
+                  <article class="lechon-card">
+                    <div class="card-image">
                         <img
-                            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=700&q=80"
+                            src="images/carcar-style-lechon.jpg"
                             alt="Lechon kawali"
+                            style="width: 100%; height:500px"
                             loading="lazy"
                         >
                     </div>
                     <div class="card-content">
-                        <h3>Perfectly Crispy Lechon Kawali</h3>
-                        <p>Crispy Lechon Pork Belly</p>
+                        <h2 class="league-gothic-custom" id="menu-item">CARCAR-STYLE LECHON
+                        <span class="price">₱299</span></h2>
+                        <p>The signature crispy skin • juicy meat</p>
                         <div class="card-bottom">
-                            <span class="price">₱299</span>
-                            <button class="btn add-btn" type="button">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
                                 Add to Cart
                             </button>
                         </div>
                     </div>
                 </article>
 
-                <article class="burger-card">
+                <article class="lechon-card">
                     <div class="card-image">
                         <img
-                            src="https://i.ytimg.com/vi/EZkpY8lBWt0/maxresdefault.jpg"
-                            alt="Barbecue burger with a toasted bun"
+                            src="images/spicy-lechon.jpg"
+                            alt="Hot & Spicy lechon"
+                            style="width: 100%; height:500px"
                             loading="lazy"
                         >
                     </div>
                     <div class="card-content">
-                        <h3>BBQ Bacon Burger</h3>
-                        <p>Smoky barbecue sauce, beef, and crispy bacon.</p>
+                        <h2 class="league-gothic-custom">SPICY LECHON
+                        <span class="price">₱400</span></h2>
+                        <p>A fiery variation -- "absolutely superb"</p>
                         <div class="card-bottom">
-                            <span class="price">₱249</span>
-                            <button class="btn add-btn" type="button">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
                                 Add to Cart
                             </button>
                         </div>
                     </div>
                 </article>
 
-                <article class="burger-card">
+                <article class="lechon-card">
                     <div class="card-image">
                         <img
-                            src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=700&q=80"
-                            alt="Double beef burger with melted cheese"
+                            src="images/lechon-sisig.jpg"
+                            alt="Lechon sisig"
+                            style="width: 100%; height:500px"
                             loading="lazy"
                         >
                     </div>
                     <div class="card-content">
-                        <h3>Double Cheese</h3>
-                        <p>Two juicy patties with extra melted cheese.</p>
+                        <h2 class="league-gothic-custom">LECHON SISIG
+                        <span class="price">₱299</span></h2>
+                        <p>Diced lechon • sizzling • bold seasoning</p>
                         <div class="card-bottom">
-                            <span class="price">₱289</span>
-                            <button class="btn add-btn" type="button">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
                                 Add to Cart
                             </button>
                         </div>
                     </div>
                 </article>
 
-                <article class="burger-card">
+                <article class="lechon-card">
                     <div class="card-image">
                         <img
-                            src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=700&q=80"
-                            alt="Special house burger with fresh toppings"
+                            src="images/chorizo.jpg"
+                            alt="Chorizo"
+                            style="width: 100%; height:500px"
                             loading="lazy"
                         >
                     </div>
                     <div class="card-content">
-                        <h3>House Special</h3>
-                        <p>Our signature burger with a secret house sauce.</p>
+                        <h2 class="league-gothic-custom">CHORIZO
+                        <span class="price">₱299</span></h2>
+                        <p>Herb-filled sausage • burst of bold flavor</p>
                         <div class="card-bottom">
-                            <span class="price">₱269</span>
-                            <button class="btn add-btn" type="button">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
                                 Add to Cart
                             </button>
                         </div>
                     </div>
                 </article>
 
-            </div>
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/puso-rice.jpg"
+                            alt="Puso rice"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">PUSO RICE
+                        <span class="price">₱299</span></h2>
+                        <p>Coconut-leaf wrapped • the proper pairing</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/chicharon-bulaklak.jpg"
+                            alt="Chicharon bulaklak"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">CHICHARON BULAKLAK
+                        <span class="price">₱299</span></h2>
+                        <p>Crispy fried pork innards -- guilty pleasure</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/crispy-kangkong.jpeg"
+                            alt="Crispy kangkong"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">CRISPY KANGKONG
+                        <span class="price">₱199</span></h2>
+                        <p>Deep-fried water spinach • light crunch</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/cebu-express.jpeg"
+                            alt="Cebu express"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">CEBU EXPRESS
+                        <span class="price">₱299</span></h2>
+                        <p>Spicy coconut milk • shrimp paste • pork</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/pancit.jpg"
+                            alt="Pancit"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">PANCIT
+                        <span class="price">₱299</span></h2>
+                        <p>Classic Filipino noodles • super too</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/kinilaw.jpg"
+                            alt="Kinilaw"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">KINILAW
+                        <span class="price">₱299</span></h2>
+                        <p>Fresh raw fish salad • Cebuano classic</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/halo-halo.jpg"
+                            alt="Halo-halo"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">HALO-HALO
+                        <span class="price">₱299</span></h2>
+                        <p>Shaved ice • leche flan • sweetened fruits</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/mango-sticky-rice.jpg"
+                            alt="Mango sticky rice"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">MANGO STICKY RICE
+                        <span class="price">₱299</span></h2>
+                        <p>Ripe mangoes • coconut-scented rice</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/puto-bumbong-cheesecake.jpg"
+                            alt="Puto bumbong"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">PUTO BUMBONG CHEESECAKE
+                        <span class="price">₱299</span></h2>
+                        <p>Filipino holiday fusion dessert</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/mango-shake.jpg"
+                            alt="Mango smoothie"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">MANGO SMOOTHIE
+                        <span class="price">₱299</span></h2>
+                        <p>Refreshing -- noted as a favorite</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="lechon-card">
+                    <div class="card-image">
+                        <img
+                            src="images/buko-juice.jpg"
+                            alt="Buko juice"
+                            style="width: 100%; height:500px"
+                            loading="lazy"
+                        >
+                    </div>
+                    <div class="card-content">
+                        <h2 class="league-gothic-custom">BUKO JUICE
+                        <span class="price">₱299</span></h2>
+                        <p>Fresh young coconut • local touch</p>
+                        <div class="card-bottom">
+                            <button class="btn add-btn" id="btn-addtocart" type="button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div><br><br><br><br><br>
+            
+            <p>Roasted fresh daily. Available from 10AM until sold out.</p>
         </section>
 
         <!-- About / Benefits -->
         <section class="benefits" id="about">
+            <a href="#home" class="logo">
+                <span class="logo-icon">🐷</span>
+                <span>HOUSE OF LECHON</span>
+            </a>
             <div class="benefit">
-                <span class="benefit-icon">🌿</span>
+                <span class="benefit-icon">𓌉◯𓇋</span>
                 <div>
-                    <h3>Fresh Ingredients</h3>
-                    <p>Quality ingredients in every bite.</p>
+                    <h2 class="league-gothic-custom">VISIT US:</h2>
+                    <p>Acacia St., Camputhaw, Archbishop Ave., Cebu City</p>
                 </div>
             </div>
 
             <div class="benefit">
-                <span class="benefit-icon">🚚</span>
+                <span class="benefit-icon">⏱</span>
                 <div>
-                    <h3>Fast Delivery</h3>
-                    <p>Your favorite burgers delivered fresh.</p>
+                    <h2 class="league-gothic-custom">BUSINESS HOURS::</h2>
+                    <p>Monday - Sunday<br>10AM - 9PM or until sold out</p>
                 </div>
             </div>
 
             <div class="benefit">
-                <span class="benefit-icon">⭐</span>
+                <span class="benefit-icon">☏</span>
                 <div>
-                    <h3>Made with Love</h3>
-                    <p>Big flavor and great taste, always.</p>
+                    <h2 class="league-gothic-custom">CONTACT US:</h2>
+                    <p>0916 662 0163  acaciahouseoflechon@gmail.com</p>
                 </div>
             </div>
+
+            <span></span>
+
         </section>
     </main>
-      <!-- Footer -->
+    
+    <!-- Footer -->
     <footer id="contact">
-        <a href="#home" class="logo">
-            🐷 Bahay<span>Litsunan</span>
-        </a>
-        <p>For faster Delivery Call us at ☎️ 1192456 </p>
-        <p>Fresh burgers. Happy people. © 2026 Burger House.</p>
+        <p>© 2026 House of Lechon. A taste of tradition.</p>
     </footer>
-    <!-- Back to top button -->
+     <!-- Back to top button -->
     <a href="#home" class="back-to-top" aria-label="Back to top">
         ↑
     </a>
+    
 </body>
 </html>
