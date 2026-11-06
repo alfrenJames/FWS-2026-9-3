@@ -18,7 +18,7 @@ function toggleMenu() {
     );
 }
 
-// Toggle when the hamburger is clicked
+// Toggle when the lechon is clicked
 menuToggle.addEventListener("click", toggleMenu);
 
 // Close the menu when a navigation link is selected
