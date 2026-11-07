@@ -12,7 +12,7 @@ Explore the personal portfolio websites developed by our participants.
 
 | # | Student Name | Portfolio Website |
 |---|---|---|
-| 1 | Student Name | [View Portfolio](PORTFOLIO_LINK) |
+| 1 | Student Name | [View Portfolio](https://portfolio-bernardlewiscardona.vercel.app/) |
 | 2 | Student Name | [View Portfolio](PORTFOLIO_LINK) |
 | 3 | Student Name | [View Portfolio](PORTFOLIO_LINK) |
 
