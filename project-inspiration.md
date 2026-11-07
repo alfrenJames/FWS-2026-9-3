@@ -12,10 +12,13 @@ Explore the personal portfolio websites developed by our participants.
 
 | # | Student Name | Portfolio Website |
 |---|---|---|
-| 1 | Student Name | [View Portfolio](https://portfolio-bernardlewiscardona.vercel.app/) |
-| 2 | Student Name | [View Portfolio](PORTFOLIO_LINK) |
-| 3 | Student Name | [View Portfolio](PORTFOLIO_LINK) |
-
+| 1 | [View Portfolio](https://portfolio-bernardlewiscardona.vercel.app/) |
+| 2 | [View Portfolio](https://jestoni.devph.space/) |
+| 3 | [View Portfolio](https://len0128rco.wixsite.com/leahlaineclemente) |
+| 4 | [View Portfolio](https://kdsdiaz-iportfolio.vercel.app/) |
+| 5 | [View Portfolio](https://checuli.devph.space/) |
+| 6 | [View Portfolio](https://zenkiez22.github.io/Portfolio1/) |
+| 5 | [View Portfolio](https://paul.devph.space) |
 ---
 
 ## 🚀 Student Projects
