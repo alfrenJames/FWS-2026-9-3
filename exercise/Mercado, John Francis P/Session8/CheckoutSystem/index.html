@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Store Checkout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light">
+    <header class="bg-dark text-white text-center py-4 mb-4 shadow-sm">
+        <h1><i class="bi bi-shop"></i> Tech Store Checkout</h1>
+    </header>
+
+    <main class="container mb-5">
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <section class="card shadow-sm mb-4 border-0">
+                    <div class="card-header bg-primary text-white py-3">
+                        <h2 class="h5 mb-0"><i class="bi bi-person-vcard"></i> Personal Information</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="customerName" class="form-label fw-bold">Customer Name</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                    <input type="text" id="customerName" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="customerMoney" class="form-label fw-bold">Money On Hand (₱)</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-wallet2"></i></span>
+                                    <input type="number" id="customerMoney" class="form-control" min="0" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="card shadow-sm border-0">
+                    <div class="card-header bg-success text-white py-3">
+                        <h2 class="h5 mb-0"><i class="bi bi-box-seam"></i> Shop Catalogue</h2>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0 align-middle text-center">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>#</th>
+                                        <th class="text-start">Item Name</th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="shopCatalogueTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-5">
+                <section class="card shadow-sm mb-4 border-0">
+                    <div class="card-header bg-warning text-dark py-3">
+                        <h2 class="h5 mb-0"><i class="bi bi-receipt"></i> Order Summary</h2>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-sm table-striped mb-0 align-middle text-center">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>#</th>
+                                        <th class="text-start">Item</th>
+                                        <th>Qty</th>
+                                        <th>Price</th>
+                                        <th>Subtotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="productTableBody"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-white py-3">
+                        <div class="d-flex justify-content-between mb-2 fs-5">
+                            <span class="fw-bold text-secondary">Total:</span>
+                            <span id="summaryTotal" class="fw-bold text-danger">₱0.00</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2 fs-6">
+                            <span class="text-secondary">Available Money:</span>
+                            <span id="availableMoney" class="fw-semibold text-success">₱0.00</span>
+                        </div>
+                        <div class="d-flex justify-content-between fs-6 border-top pt-2">
+                            <span class="text-secondary">Remaining Balance:</span>
+                            <span id="remainingBalance" class="fw-semibold">₱0.00</span>
+                        </div>
+                    </div>
+                </section>
+
+                <button id="checkoutBtn" class="btn btn-primary w-100 py-3 fs-5 fw-bold shadow-sm" disabled>
+                    <i class="bi bi-cart-check"></i> Proceed to Checkout
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://raw.githubusercontent.com/alfrenJames/FWS-2026-9-3/refs/heads/main/exercise/Mercado%2C%20John%20Francis%20P/Session8/CheckoutSystem/script.js"></script>
+</body>
+
+</html>
