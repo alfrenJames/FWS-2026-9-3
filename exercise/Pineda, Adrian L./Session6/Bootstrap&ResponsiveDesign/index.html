@@ -1,1 +1,816 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montana Homes</title>
+
+    <!-- Bootstrap 5.3.8 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+          rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-xxl bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+
+        <!-- LOGO -->
+        <a class="navbar-brand" href="#">
+            <img src="image/logo.png"
+                 alt="Montana Homes Logo"
+                 width="150"
+                 height="50">
+        </a>
+
+        <!-- HAMBURGER -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAVIGATION -->
+        <div class="collapse navbar-collapse"
+             id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto align-items-xxl-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">ABOUT US</a>
+                </li>
+
+                <!-- PROJECT DROPDOWN -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        OUR PROJECT
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#projects">
+                                Ongoing Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#projects">
+                                Future Projects
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PROMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VIDEO GALLERY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CAREERS</a>
+                </li>
+
+                <!-- NEWS DROPDOWN -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       role="button"
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        NEWS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Project News
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Company Updates
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                </li>
+            </ul>
+
+            <!-- PHONE NUMBER -->
+            <span class="navbar-text text-nowrap">
+                📞 +63 289973884
+            </span>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO CAROUSEL -->
+<div id="carouselExampleIndicators"
+     class="carousel slide">
+
+    <!-- INDICATORS -->
+    <div class="carousel-indicators">
+        <button type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1">
+        </button>
+        <button type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2">
+        </button>
+        <button type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3">
+        </button>
+    </div>
+
+    <!-- CAROUSEL IMAGES -->
+    <div class="carousel-inner">
+
+        <!-- FIRST IMAGE -->
+        <div class="carousel-item active">
+            <div class="ratio ratio-16x9">
+                <img src="image/hero3.png"
+                     class="w-100 h-100 object-fit-cover"
+                     alt="Montana Homes Banner 1">
+            </div>
+        </div>
+
+        <!-- SECOND IMAGE -->
+        <div class="carousel-item">
+            <div class="ratio ratio-16x9">
+                <img src="image/proj3.jpg"
+                     class="w-100 h-100 object-fit-cover"
+                     alt="Montana Homes Banner 2">
+            </div>
+        </div>
+
+        <!-- THIRD IMAGE -->
+        <div class="carousel-item">
+            <div class="ratio ratio-16x9">
+                <img src="image/hero1.png"
+                     class="w-100 h-100 object-fit-cover"
+                     alt="Montana Homes Banner 3">
+            </div>
+        </div>
+    </div>
+
+    <!-- PREVIOUS -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+
+    <!-- NEXT -->
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- ABOUT SECTION -->
+<section class="py-5" id="about">
+    <div class="container">
+        <div class="row align-items-center g-5">
+
+            <!-- LEFT SIDE -->
+            <div class="col-lg-6">
+                <p class="text-warning fw-bold mb-2">
+                    MONTANA HOMES IN A GLANCE
+                </p>
+                <h2 class="fw-bold">
+                    Tailoring spaces to cultivate
+                    prosperity for communities
+                </h2>
+                <p>
+                    We are a real estate company in the Philippines
+                    dedicated to providing affordable, high-quality homes.
+                    We are a subsidiary of Grand Monaco Land, Inc.,
+                    that is deeply committed to helping Filipino families
+                    realize their dream homes, standing by its
+                    two-decade-old tagline
+                    ‘Tutulungan Kang Magkabahay.’
+                </p>
+                <a href="#" class="btn btn-success">
+                    LEARN MORE ABOUT US →
+                </a>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-6">
+                <img src="image/hero1.png"
+                     class="d-block w-100"
+                     alt="Montana Homes">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROPERTY FILTER -->
+    <section class="bg-secondary-subtle py-5">
+    <div class="container">
+        <div class="row g-3 align-items-end">
+
+            <!-- PROPERTY TYPE -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <label class="form-label fw-bold text-center d-block">
+                    PROPERTY TYPE
+                </label>
+                <select class="form-select">
+                    <option selected>Select Property Type</option>
+                    <option>House and Lot</option>
+                    <option>Townhouse</option>
+                    <option>Condominium</option>
+                </select>
+            </div>
+
+            <!-- LOCATION -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <label class="form-label fw-bold text-center d-block">
+                    LOCATION
+                </label>
+                <select class="form-select">
+                    <option selected>All Property Location</option>
+                    <option>Antipolo City</option>
+                    <option>Enrile, Cagayan</option>
+                    <option>Sta. Ignacia Tarlac</option>
+                    <option>Tagaytay City</option>
+                    <option>Taytay, Rizal</option>
+                </select>
+            </div>
+
+            <!-- PRICE RANGE -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <label class="form-label fw-bold text-center d-block">
+                    PRICE RANGE
+                </label>
+                <select class="form-select">
+                    <option selected>Select Price Range</option>
+                    <option>3,000,000</option>
+                    <option>2,500,000</option>
+                    <option>2,000,000</option>
+                    <option>1,500,000</option>
+                    <option>1,000,000</option>
+                    <option>500,000</option>
+                </select>
+            </div>
+
+            <!-- FILTER BUTTON -->
+            <div class="col-12 col-md-6 col-lg-3 text-center">
+                <button type="button"
+                        class="btn btn-success px-4 py-2">
+                    APPLY FILTERS
+                </button>
+            </div>
+        </div>
+
+        <!-- LOAN CALCULATOR -->
+        <div class="mt-3">
+            <i class="bi bi-calculator-fill text-success me-2"></i>
+            Try our
+            <a href="#" class="text-dark fw-bold">
+                Loan Calculator
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- DEVELOPMENT PROJECTS -->
+<section class="container py-5" id="projects">
+
+    <!-- HEADING -->
+    <div class="row align-items-center mb-4">
+        <div class="col-lg-8">
+            <p class="text-warning fw-bold mb-2">
+                DEVELOPMENT PROJECTS
+            </p>
+            <h3 class="fw-bold">
+                Montana Homes: Leading the Way in
+                Affordable & Quality Housing for
+                Filipino Families
+            </h3>
+        </div>
+
+        <!-- LEARN MORE -->
+        <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+            <a href="#" class="btn btn-success px-5 py-2">
+                LEARN MORE →
+            </a>
+        </div>
+    </div>
+
+    <!-- PROJECT CAROUSEL -->
+    <div id="projectCarousel"
+         class="carousel slide"
+         data-bs-interval="false">
+        <div class="carousel-inner">
+
+            <!-- FIRST SLIDE -->
+            <div class="carousel-item active">
+                <div class="row g-2">
+
+                    <!-- PROJECT 1 -->
+                    <div class="col-md-6">
+                        <div class="position-relative overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="image/proj1.png"
+                                     class="w-100 h-100 object-fit-cover"
+                                     alt="Montana Misora Homes Phase II">
+                            </div>
+
+                            <!-- IMAGE TEXT -->
+                            <div class="position-absolute bottom-0 start-0
+                                        w-100 bg-dark bg-opacity-50
+                                        text-white p-3">
+                                <h6 class="fw-bold">
+                                    MONTANA MISORA HOMES PHASE II
+                                </h6>
+                                <p class="mb-0">
+                                    Enrile, Cagayan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 2 -->
+                    <div class="col-md-6">
+                        <div class="position-relative overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="image/proj2.jpg"
+                                     class="w-100 h-100 object-fit-cover"
+                                     alt="Montana Misora Homes 1">
+                            </div>
+                            <div class="position-absolute bottom-0 start-0
+                                        w-100 bg-dark bg-opacity-50
+                                        text-white p-3">
+                                <h6 class="fw-bold">
+                                    MONTANA MISORA HOMES 1
+                                </h6>
+                                <p class="mb-0">
+                                    Enrile, Cagayan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECOND SLIDE -->
+            <div class="carousel-item">
+                <div class="row g-2">
+                    <!-- PROJECT 3 -->
+                    <div class="col-md-6">
+                        <div class="position-relative overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="image/proj3.jpg"
+                                     class="w-100 h-100 object-fit-cover"
+                                     alt="Project 3">
+                            </div>
+                            <div class="position-absolute bottom-0 start-0
+                                        w-100 bg-dark bg-opacity-50
+                                        text-white p-3">
+                                <h6 class="fw-bold">
+                                    DEVELOPMENT PROJECT 3
+                                </h6>
+                                <p class="mb-0">
+                                    Project Location
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- PROJECT 4 -->
+                    <div class="col-md-6">
+                        <div class="position-relative overflow-hidden">
+                            <div class="ratio ratio-4x3">
+                                <img src="image/proj4.jpg"
+                                     class="w-100 h-100 object-fit-cover"
+                                     alt="Project 4">
+                            </div>
+                            <div class="position-absolute bottom-0 start-0
+                                        w-100 bg-dark bg-opacity-50
+                                        text-white p-3">
+                                <h6 class="fw-bold">
+                                    DEVELOPMENT PROJECT 4
+                                </h6>
+                                <p class="mb-0">
+                                    Project Location
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PREVIOUS ARROW -->
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#projectCarousel"
+                data-bs-slide="prev">
+            <span class="bg-success rounded-circle p-3 d-inline-flex">
+                <span class="carousel-control-prev-icon"></span>
+            </span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <!-- NEXT ARROW -->
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#projectCarousel"
+                data-bs-slide="next">
+            <span class="bg-success rounded-circle p-3 d-inline-flex">
+                <span class="carousel-control-next-icon"></span>
+            </span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>    
+</section>
+
+<!-- VIDEO SECTION -->
+<section class="bg-secondary-subtle py-5">
+
+    <div class="container">
+
+    <h2 class="text-center fw-bold mb-4">
+        WE are not just building a house,
+        we are building a community.
+    </h2>
+
+    <div class="ratio ratio-16x9">
+
+        <iframe
+            src="https://www.youtube.com/watch?v=VmVdwOBrFQQ"
+            title="Montana Homes Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</section>
+<section>
+   
+<!-- NEWS & EVENTS SECTION -->
+<section class="container py-5">
+
+    <!-- HEADING -->
+    <div class="text-center mb-5">
+
+        <p class="text-warning fw-bold mb-2">
+            FROM OUR BLOG
+        </p>
+
+        <h2 class="fw-bold">
+            News & Events
+        </h2>
+
+    </div>
+
+    <!-- NEWS GRID -->
+    <div class="row g-4">
+
+        <!-- NEWS 1 -->
+        <div class="col-12 col-md-4">
+            <div class="h-100">
+                <div class="ratio ratio-16x9">
+                    <img src="image/proj8.jpeg"
+                         class="w-100 h-100 object-fit-cover"
+                         alt="Company Updates">
+                </div>
+                <div class="mt-3">
+                    <span class="badge bg-success rounded-1">
+                        Company Updates
+                    </span>
+                    <h6 class="fw-bold mt-2">
+                        Grand Monaco Land – Montana Homes
+                        Expands Housing Development In
+                        Santa Ignacia, Tarlac
+                    </h6>
+                    <p class="text-secondary small">
+                        October 16, 2026
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWS 2 -->
+        <div class="col-12 col-md-4">
+
+            <div class="h-100">
+
+                <div class="ratio ratio-16x9">
+                    <img src="image/proj10.jpg"
+                         class="w-100 h-100 object-fit-cover"
+                         alt="Project News">
+                </div>
+                <div class="mt-3">
+                    <span class="badge bg-success rounded-1">
+                        Project News
+                    </span>
+                    <h6 class="fw-bold mt-2">
+                        Montana Misato Homes Officially
+                        Unveiled And Breaks Ground In
+                        Santa Ignacia, Tarlac
+                    </h6>
+                    <p class="text-secondary small">
+                        September 18, 2026
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- NEWS 3 -->
+        <div class="col-12 col-md-4">
+            <div class="h-100">
+                <div class="ratio ratio-16x9">
+                    <img src="image/proj5.jpg"
+                         class="w-100 h-100 object-fit-cover"
+                         alt="Company Event">
+                </div>
+                <div class="mt-3">
+
+                    <span class="badge bg-success rounded-1">
+                        Company Updates
+                    </span>
+                    <h6 class="fw-bold mt-2">
+                        Grand Monaco Land Featured At
+                        Manila Elegance Society
+                        Inaugural Awards & Fashion Gala
+                    </h6>
+                    <p class="text-secondary small">
+                        May 26, 2026
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- VIEW MORE BUTTON -->
+    <div class="text-center mt-5">
+        <a href="#"
+           class="btn btn-success px-5 py-2 fw-bold">
+            VIEW MORE NEWS →
+        </a>
+    </div>
+</section>
+<section>
+
+<!-- FOOTER SECTION -->
+<footer class="text-white pt-5 pb-4"
+    style="
+    background:
+    linear-gradient(
+        to bottom,
+        rgba(255,255,255,0.1) 0%,
+        rgba(30,155,55,0.65) 30%,
+        rgba(30,155,55,1) 55%
+    ),
+    url('image/footer-bg.jpg') center/cover no-repeat;
+    ">
+
+    <div class="container pt-5 mt-5">
+        <div class="row g-4">
+            <!-- LOGO -->
+            <div class="col-12 col-lg-3">
+                <img src="image/proj14.png"
+                     alt="Montana Homes Logo"
+                     width="200"
+                     class="img-fluid">
+            </div>
+            <!-- COMPANY INFO -->
+            <div class="col-12 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-3">
+                    COMPANY INFO
+                </h6>
+                <ul class="list-unstyled">
+
+                    <li class="mb-2">
+                        <a href="#about"
+                           class="text-white text-decoration-none">
+                            › About Us
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#"
+                           class="text-white text-decoration-none">
+                            › Careers
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#projects"
+                           class="text-white text-decoration-none">
+                            › Our Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- USEFUL LINKS -->
+            <div class="col-12 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-3">
+                    USEFUL LINKS
+                </h6>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <a href="#"
+                           class="text-white text-decoration-none">
+                            › Home
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#"
+                           class="text-white text-decoration-none">
+                            › Promos
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#"
+                           class="text-white text-decoration-none">
+                            › Video Gallery
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#"
+                           class="text-white text-decoration-none">
+                            › News
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#"
+                           class="text-white text-decoration-none">
+                            › Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- GET IN TOUCH -->
+            <div class="col-12 col-md-4 col-lg-3">
+                <h6 class="fw-bold mb-3">
+                    GET IN TOUCH
+                </h6>
+
+                <!-- ADDRESS -->
+                <div class="d-flex gap-2 mb-2">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p class="mb-0">
+                        Grand Monaco Center,
+                        #6 Pittsburgh St.,
+                        Brgy. Silangan, Cubao,
+                        Quezon City,
+                        Philippines 1102
+                    </p>
+                </div>
+
+                <!-- PHONE -->
+                <div class="d-flex gap-2 mb-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <a href="tel:+63289973884"
+                       class="text-white text-decoration-none">
+                        +63 289973884
+                    </a>
+
+                </div>
+
+                <!-- EMAIL -->
+                <div class="d-flex gap-2 mb-3">
+                    <i class="bi bi-envelope-fill"></i>
+                    <a href="mailto:montanahomes.socials@gmail.com"
+                       class="text-white text-decoration-none text-break">
+                        montanahomes.socials@gmail.com
+                    </a>
+                </div>
+
+                <!-- SOCIAL MEDIA -->
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-white">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="bi bi-tiktok"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- DIVIDER -->
+        <hr class="my-4">
+
+        <!-- COPYRIGHT -->
+        <div class="text-center">
+            <p class="mb-0 small">
+                © 2026 – Montana Homes.
+                All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>
+</section>
+<!-- Bootstrap JavaScript Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+</script>
+<!-- CHAT BUTTON -->
+<button class="btn btn-success position-fixed bottom-0 end-0 m-3 rounded-pill shadow"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#chatBox">
+    <i class="bi bi-chat-dots-fill"></i>
+    Chat with us
+</button>
+
+<!-- CHAT BOX -->
+<div class="collapse position-fixed bottom-0 end-0 mb-5 me-3 z-3"
+     id="chatBox">
+    <div class="card shadow rounded-4 overflow-hidden"
+         style="width: 320px;">
+
+        <!-- HEADER -->
+        <div class="card-header bg-success text-white p-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="fw-bold">
+                    <i class="bi bi-house-heart-fill me-2"></i>
+                    Montana Homes
+                </span>
+                <button class="btn btn-sm text-white"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#chatBox">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+            <small>Customer Support</small>
+        </div>
+
+        <!-- MESSAGES -->
+        <div class="card-body bg-light p-3">
+            <div class="bg-white rounded-3 p-3 shadow-sm mb-3">
+                Hello! Welcome to Montana Homes.
+                How can we help you today?
+            </div>
+            <div id="chatMessages"></div>
+        </div>
+
+        <!-- INPUT -->
+        <div class="card-footer bg-white p-3">
+            <div class="input-group">
+                <input type="text"
+                       id="chatMessage"
+                       class="form-control"
+                       placeholder="Type a message...">
+                <button class="btn btn-success"
+                        type="button"
+                        onclick="sendMessage()">
+                    <i class="bi bi-send-fill"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function sendMessage() {
+        let input = document.getElementById("chatMessage");
+        let message = input.value.trim();
+        if (message === "") return;
+        let chat = document.getElementById("chatMessages");
+        let bubble = document.createElement("div");
+        bubble.className =
+            "bg-success text-white rounded-3 p-2 mb-2 ms-5";
+        bubble.textContent = message;
+        chat.appendChild(bubble);
+        input.value = "";
+    }
+</script>
+</body>
+</html>
